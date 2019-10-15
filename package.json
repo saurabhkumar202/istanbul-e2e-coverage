@@ -1,0 +1,15 @@
+{
+  "name": "istanbulpoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coverage":"istanbul cover ./test.js"
+  },
+  "author": "saurabh",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5"
+  }
+}
